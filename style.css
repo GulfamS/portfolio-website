@@ -1,0 +1,121 @@
+.logo{
+    height: 30px;
+    width: 30px;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    margin: 0px 15px 0px 15px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-bottom: 8px;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.person-name {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.person-pic{
+    margin-right: 600px;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    width: 60%;
+    margin-top: 70px;
+}
+
+.hello-heading{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 40px;
+    height: 72px;
+    width: 197px;
+    background-image: linear-gradient(to right, #326872, #326872, #808080);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.description-container{
+    text-align: left;
+    margin-top: 28px;
+    width: 70vw;
+}
+
+.anish-name{
+    font-family: Roboto;
+    font-size: 45px;
+}
+
+.name{
+    color: rgb(77, 76, 76);
+    text-decoration: underline;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.button-container {
+    margin-top: 50px;
+}
+
+.download-btn {
+    border: none;
+    padding: 12px 8px 12px 8px;
+    color: #ffffff;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, rgb(228, 113, 6), rgb(251, 176, 36));
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.get-touch-btn {
+    border: none;
+    padding: 12px 8px 12px 8px;
+    color: #ffffff;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, rgb(58, 57, 57), rgb(19, 17, 14));
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+} 
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+  
+.navbar.dark-mode {
+    background-color: #1f1f1f !important;
+}
+  
+.hello-background.dark-mode {
+    background-color: #121212;
+}
+
+.nav.dark-mode{
+    color: #ffffff;
+    background-color: #ffffff;
+}
+
+body.dark-mode .nav-link {
+    color: #ffffff !important;
+  }
+  
